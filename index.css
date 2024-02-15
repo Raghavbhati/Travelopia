@@ -46,6 +46,9 @@ main {
 #mobile_menu{
     display: none;
 }
+.hamburger{
+    font-size: 36px !important;
+}
 #nav_links > li{
     display: inline;
 }
@@ -176,4 +179,40 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+
+@media only screen and (max-width:1280px){
+    .container{
+        width: 90%;
+    }
+    .hero_popUP{
+        width: 30%;
+    }
+    .hero_details p{
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .navbar_main nav{
+        display: none;
+    }
+    .hero_popUP{
+        width: 40%;
+    }
+    #mobile_menu{
+        padding-top: 5px;
+        display: block;
+        cursor: pointer;
+    }
+}
+@media only screen and (max-width:767px){
+    .hero_details p{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .hero_popUP{
+        width: 60%;
+    }
 }
