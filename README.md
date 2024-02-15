@@ -7,7 +7,9 @@ This repository contains the frontend take-home assignment for Travelopia, imple
 Welcome to the Travelopia Frontend Assignment repository. In this project, I aim to showcase my skills in frontend web development, utilizing a combination of HTML, CSS, and JavaScript to create a responsive web page. The assignment revolves around building a responsive and visually appealing webpage for Travelopia.
 
 **Font Used:** Poppins
+<br>
 **Icon Used:** Google Icons
+<br>
 **Deployed URL:** https://travelopia-rv.vercel.app/
 
 ## Project Structure
@@ -31,6 +33,9 @@ I hope you enjoy navigating through the Travelopia Frontend Assignment! Feel fre
 
 ##Important links:
 **Portfolio:** https://www.raghavbhatirv.in/
+<br>
 **Github:** https://github.com/Raghavbhati
+<br>
 **Linkdin:** https://www.linkedin.com/in/raghavbhatirv/
+<br>
 **Twitter:** https://twitter.com/raghavbhatirv/
