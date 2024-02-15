@@ -219,8 +219,6 @@ main {
     .hero_popUP{
         width: 60%;
     }
-}
-@media only screen and (max-width:640px){
     .hero_details> h2{
         font-size: 25px;
     }
