@@ -11,18 +11,57 @@ body{
 }
 header, footer {
     height: 100px;
-    /* background-color: #E8E8E8; */
-    background-color: #696969;
+    background-color: #060606;
     color: white; 
-    text-align: center;
-    line-height: 100px;
+    display: flex;
+    align-content: center;
 }
 main {
     flex: 1;
     overflow: hidden;
     position: relative;
 }
-
+.container{
+    width: 75%;
+    margin: auto;
+}
+.navbar_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo_text{
+    color: white;
+    text-decoration: none;
+}
+#logo_text:visited{
+    color: white;
+    text-decoration: none;
+}
+#logo_text> h3{
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: 500;
+}
+#mobile_menu{
+    display: none;
+}
+#nav_links > li{
+    display: inline;
+}
+#nav_links > li> a{
+    color: white;
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+}
+#nav_links > li> a:hover{
+    color: black;
+    background-color: white;
+    
+}
 #hero_section {
     height: 100%;
     width: 100%;
@@ -55,6 +94,19 @@ main {
    font-weight: 600;
    font-size: 35px;
 }
+#open_popup{
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    padding: 4px 14px;
+    cursor: pointer;
+    margin: 10px 0px;
+}
+#open_popup:hover{
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+}
 #info_Btn{
     border: 2px solid #E8E8E8;
     color: white;
@@ -67,4 +119,61 @@ main {
     border: 2px solid #E8E8E8;
     color: black;
     background-color: white;
+}
+.hero_popUP {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    background-color: white;
+    text-align: center;
+    padding: 10px 30px 20px;
+    border-radius: 6px;
+    width: 25%;
+    visibility: hidden;
+    transition: transform 0.2s, top 0.2s;
+    z-index: 1000;
+}
+.hero_popUP h1{
+    font-size: 30px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+.pop_Active {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+.hero_popUP img{
+    width: 50px;
+    position: absolute;
+}
+#close_popup{
+    width: 100%;
+    padding: 5px 0px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+}
+#close_popup:hover{
+    border: 2px solid black;
+    background-color: white;
+    color: #000;
+}
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+}
+#footer_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
