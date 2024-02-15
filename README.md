@@ -32,8 +32,8 @@ As outlined in the problem statement, the footer section has a height of 100px, 
 I hope you enjoy navigating through the Travelopia Frontend Assignment! Feel free to provide feedback and suggestions for further improvement.
 
 ## Important links:
-<br>
-<br>
+
+
 **Portfolio:** https://www.raghavbhatirv.in/
 <br>
 **Github:** https://github.com/Raghavbhati
